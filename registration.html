@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Registration form</title>
+	<style type="text/css">
+		label,li{
+			display: flex;
+			margin-top: 1%;
+			font-family: serif;
+			font-weight: 300;
+			font-size: large;
+			text-transform: capitalize;
+			text-align: center;
+		}
+		.button{
+			
+			position: absolute;
+			display: flex;
+			flex-wrap: ;
+			
+		}
+		button{
+			margin-left: 5%;
+		}
+		h1{
+			text-align-last: center;
+			color: seagreen;
+
+			
+		}
+		body{
+			background-color:;
+			color: black;
+
+		}
+		td{
+			display: flex;
+			margin-top: 0%;
+		}
+		input[ type=text] ,[type=password],[type=email],[type=Date],[type=select]{
+			width: 80%;
+			padding: 10px;
+			outline: none;
+			border-radius: 30px;
+		}
+		.form{
+			left: 20%;
+			margin-left: %;
+			margin-right: 40%;
+			padding-block: 2%;
+			padding-inline: 5%;
+			border: 5px solid darkred;
+			position: relative;
+			align-items: center;
+			background-color: black;
+			color: wheat;
+
+
+		}
+	</style>
+</head>
+<body>
+	<form>
+<h1>Registration Form</h1>
+<div class="form">
+<label>first name</label>
+<input type="text" name="firstname" placeholder="enter your first name"><br>
+<label>last name</label>
+<input type="text" name="lastname" placeholder="enter your last name"><br>
+<label>E-mail</label>
+<input type="email" name="email" placeholder="enter your email"><br>
+<label>password</label>
+<input type="password" name="password" placeholder="enter your password"><br>
+<label>re-enter password</label>
+<input type="password" name="password" placeholder="enter re-enter password"><br>
+<label>Date of Birth</label>
+<input type="Date" name="Dateofbirth"><br>
+<label>Gender</label>
+<input type="radio" name="Gender">Male
+<input type="radio" name="Gender">Female<br>
+<label>Country</label>
+<select>
+	<option value="Select your country">select your coountry</option>
+	<option>INDIA</option>
+	<option>CHINA</option>
+	<option>AUSTRALIA</option>
+	<option>US</option>
+	<option>UK</option>
+	<optgroup>GERMANY</optgroup>
+</select><br><br>
+<div>
+<span>select your security question</span><br>
+<td><li>first question</li></td>
+	<select>
+		<option>choose question</option>
+		<option>what is your fav food</option>
+		<option>what is your first achivement</option>
+		<option>who is your best friend</option>
+		<option>what is your nick name</option>
+	</select><br>
+		<input type="text" name="security answer" placeholder="please enter your answer"><br>
+		<td><li>Second question</li></td>
+	<select>
+		<option>choose question</option>
+		<option>what is your fav food</option>
+		<option>what is your first achivement</option>
+		<option>who is your best friend</option>
+		<option>what is your nick name</option>
+	</select><br>
+</div>
+	<input type="text" name="security answer" placeholder="please enter your answer"><br>
+	<label>verification code</label>
+	<input type=""><br><br>
+	<span>Terms & conditions</span><br>
+	<textarea cols="60" rows="3">HELLO EVERY BIDY THIS IS THE TERMS & CONDITIONS OF THE SITE. PLEASE READ CAREFULLY AND THEN CLICK THE ACCEPT BUTTON, OTHERWISE YOU CAN'T CREATE ACCOUNT </textarea><br><br>
+	<input type="checkbox" name=""> I HAVE READ ALL TERMS AND CONDITIONS<br><br>
+	 <div class="button"><form><button>submit</button></form>
+	<form><button>reset</button></form> </div>
+	
+</form>
+</div>
+</body>
+</html>
